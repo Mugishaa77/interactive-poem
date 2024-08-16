@@ -1,0 +1,53 @@
+.App {
+    background-color: beige;
+    margin: 0;
+}
+
+.Poem {
+    background-image: url('./poem_bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #FBF5E9;
+    margin-left: 1rem;
+    padding: 1rem;
+    box-shadow: -1px -1px 5px burlywood;
+    padding-top: 0;
+    font-family: "EB Garamond", serif;
+    font-size: 22px;
+    color: #0E0A09;
+    
+  
+}
+
+
+.Poem h1,
+.Poem h2,
+.Poem h4 {
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+
+.Poem button {
+    background-color: burlywood;
+    color: #FBF5E9;
+    border: 1px solid #FBF5E9;
+    box-shadow: 1px -1px 5px white;
+    padding: 0.5rem;
+    width: 100px;
+    font-size: 16px;
+}
+
+.Poem button:hover {
+   color: burlywood;
+   background-color: #FBF5E9;
+}
+
+.Poem textarea {
+    width: 400px;
+    border: 2px solid burlywood;
+}
+
+.custom-checkbox {
+    display: flex;
+    flex-direction: column;
+}
